@@ -1,0 +1,93 @@
+*, html {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+}
+
+body.city-page {
+    background: #222;
+}
+body.weather-report.light-off {
+    background: #0a1925;
+}
+body.weather-report.light-on {
+    background: #425b75;
+}
+
+#city-page {
+    width: 100%;
+    text-align: center;
+}
+.city-page #city-page {
+    height: 100vh;
+    vertical-align: middle;
+    line-height: 100vh;
+}
+.weather-report #city-page {
+    margin-top: 250px;
+}
+
+.city-page #choose-city {
+    width: 50%;
+    height: 80px;
+    display: inline-block;
+    padding: 10px;
+    background: #111;
+    color: orange;
+    font-size: 30px;
+}
+
+.weather-report #choose-city {
+    width: 300px;
+    height: 45px;
+    display: inline-block;
+    padding: 6px;
+    background: #333;
+    color: orange;
+    font-size: 16px;
+}
+
+#weather-report {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+#weather-icon {
+    width: 90px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    display: inline-block;
+    border: 1px #fff solid;
+    border-radius: 100%;
+    margin-top: 200px;
+}
+
+#weather-area {
+    display: block;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#weather-phrase {
+    display: block;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 25px;
+}
+
+#weather-degrees {
+    display: block;
+    margin-top: 90px;
+    color: #fff;
+    font-size: 40px;
+}
